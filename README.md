@@ -15,29 +15,29 @@ I further learned that **Virtual Machine** can be downloaded from this [link](ht
 
 ## Some Command to set up Vagrant and add Ubuntu
 
-**To add the Ubuntu 20.04 (Focal) image to your box list:
+**To add the Ubuntu 20.04 (Focal) image to your box list:**
 ```
-C:\Users\julien> vagrant box add ubuntu/focal64
-```
-
-**To create first virtual machine:
-```
-C:\Users\julien> vagrant init ubuntu/focal64
+C:\Users\Winner> vagrant box add ubuntu/focal64
 ```
 
-**To avoid issue with the last version of Vagrant
+**To create first virtual machine:**
 ```
-C:\Users\julien> vagrant plugin install vagrant-vbguest
-```
-
-**To start your virtual machine
-```
-C:\Users\julien> vagrant up
+C:\Users\Winner> vagrant init ubuntu/focal64
 ```
 
-**To enter your virtual machine
+**To avoid issue with the last version of Vagrant**
 ```
-C:\Users\julien> vagrant ssh
+C:\Users\Winner> vagrant plugin install vagrant-vbguest
+```
+
+**To start your virtual machine**
+```
+C:\Users\Winner> vagrant up
+```
+
+**To enter your virtual machine**
+```
+C:\Users\Winner> vagrant ssh
 ```
 
 This and many more I am learning in the task
